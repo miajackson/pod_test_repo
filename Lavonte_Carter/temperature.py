@@ -44,3 +44,11 @@ temperature_2=(85.1-32)*5/9
 print(temperature_2)
 
 #temperature1 is hotter
+
+
+'''
+This is a python program
+where students were asked to convert temperatures
+once completed students will go to the termnial
+Then, add, commit, and push
+'''
