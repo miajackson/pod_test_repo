@@ -126,15 +126,18 @@ print()
 print('Challenge 3.5: Type Conversion Part 2')
 print()
 # TODO: Take each player's three point percentage (from part 2.5) and convert it to a string, then print it out.
-
-jamal_murray_3pts_percentage = str(jamal_murray_3pts_percentage)
-print(jamal_murray_3pts_percentage)
-fred_vanvleet_3pts_percentage = str(fred_vanvleet_3pts_percentage)
-print(fred_vanvleet_3pts_percentage)
-james_harden_3pts_percentage = str(james_harden_3pts_percentage)
-print(james_harden_3pts_percentage)
-
+print(str(jamal_murray_3pts_percentage))
+print(str(fred_vanvleet_3pts_percentage))
+print(str(james_harden_3pts_percentage))
+#I notice the "0." at the beginning of the numbers, turning them into a float
 print()
 
 # TODO: Take each player's three point percentage (from part 2.5) and convert it to an integer, then print it out.
-
+print(int(jamal_murray_3pts_percentage))
+print(int(fred_vanvleet_3pts_percentage))
+print(int(james_harden_3pts_percentage))
+#it rounded down to the nearest whole number
+print()
+'''
+Challenge Completed
+'''
