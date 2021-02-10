@@ -9,9 +9,9 @@ u = 5
 v = 2
 
 if u * v == 10:
-    print(f"The product of u {u} and v {v} is 10")
+    print(f"The product of u ({u}) and v ({v}) is 10")
 else:
-    print(f"The product of u {u} and v {v} is not 10")
+    print(f"The product of u ({u}) and v ({v}) is not 10")
 
 print()
 
@@ -22,10 +22,10 @@ y = 25
 z = 30
 
 if z < x:
-    print("z is less than x")
+    print(f"z ({z}) is less than ({x})")
 
 elif z > x and z < y:
-    print("z is between x and y")
+    print(f"z ({z}) is between x ({x}) and y ({y})")
 
 else:
     print("z is greater than y")
@@ -42,7 +42,7 @@ a = 1
 b = 1
 c = (a == b)
 
-print(f"The value of c {c} is True since a {a} is greater than b {b}.")
+print(f"The value of c ({c}) is True since a ({a}) is greater than b ({b}).")
 assert(c == True) #Do not change this line
 
 print()
@@ -66,9 +66,9 @@ print("Code Snippet 5:")
 m = "GOAT"
 n = "goat"
 
-o = (m != n)
+o = (m == n upper())
 
-print (f"The value of o {o} is True since Python is case-sensitive.")
+print (f"The value of o ({o}) is True since Python is case-sensitive.")
 assert(o == True) #Do not change this line
 
 print()
