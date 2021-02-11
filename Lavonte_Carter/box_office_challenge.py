@@ -41,16 +41,24 @@ print(len(remaining_50_list))
 
 # TODO: Great! Let's join the two lists into one list called "top_100". Uncomment the line of code below and run your code to see how it's done!
 print()
+top_100 = remaining_50_list + top_50_list
 #Note: Print your new variable to see the combined list of movies
 
+print(top_100)
 
 # TODO: Let's print the first movie in our "top_100" list. Let's use the index lookup method to do this.
-
+print()
+#print(top_100)
 
 # TODO: Let's print the top 10 movies in "top_100" as a list. Let's use the slice syntax to accomplish this!
 
+print(f"The top 10 movies are {top_100[0:10]}")
 
 # TODO: Let's convert the list "top_100" back into a string. Assign it to a variable called "top_100_str".
 
+top_100_str = ','.join(top_100)
+print(type(top_100_str))
 
 # Note: Print your new variable to see the string version of the movies
+print()
+print(top_100_str)
