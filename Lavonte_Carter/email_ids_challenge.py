@@ -29,9 +29,10 @@ print()
 
 email = joined_names + '@ripplemedia.com'
 print(email)
+print()
 
 print('Question 2')
-
+print()
 # Congratulations! Your team is expanding. Below is a list of their names:
 names = ['Max Bartlett', 'Angelita Norris', 'Stewart Mueller', 'Dominique Henry', 'Carmela Gross', 'Bettie Mcmillan', 'Sara Ellison', 'Ira Anthony', 'Pauline Riley', 'Ben Weber',
          'Joanne Mcknight', 'Loren Gould', 'Jamar Singh', 'Amanda Vance', 'Tyrell Andrade', 'Jana Clements', 'Eddy Mcbride', 'Marsha Meyer', 'Elbert Shannon', 'Alyce Hull']
