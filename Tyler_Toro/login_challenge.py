@@ -23,8 +23,7 @@ password = input("Password: ")
 while(password != user["password"]):
     print("Something went wrong, please try entering your password again")
     password = input("Password: ")
-else
 # TODO: Print 'Logging In...'
-    print("Logging in...")
+print("Logging in...") 
 # TODO: Print 'Welcome back, ' and the name in the user dictionary
-    print(f"Welcome back " + user["name"] )
+print(f"Welcome back " + user["name"] )
