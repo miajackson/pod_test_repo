@@ -1,5 +1,3 @@
-# pod_test_repo
-Testing 123
 # Pod 4 Repo
 
 # To do before each breakout session:
