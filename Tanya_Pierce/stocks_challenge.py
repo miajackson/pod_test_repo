@@ -38,5 +38,4 @@ else:
     print("You didn't enter a valid stock option")
 
 
-
-
+ 
