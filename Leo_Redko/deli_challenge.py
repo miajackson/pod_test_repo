@@ -9,8 +9,9 @@ cheeses = ['cheddar', 'swiss', 'pepper jack', 'provolone']
 for m in range(len(meats)):
     meats[m] = meats[m].capitalize()
 for c in range(len(cheeses)):
-    meats[m] = cheeses[m].capitalize()
+    cheeses[c] = cheeses[c].capitalize()
 print(meats)
+print(cheeses)
 
 print('Question 2')
 # Great! Your lists look much better. You need to come up with every combination of meats and cheeses for your menu.
