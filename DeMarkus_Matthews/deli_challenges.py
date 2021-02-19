@@ -30,7 +30,7 @@ print('Question 3')
 # TODO: Loop over the sandwiches list.
 # TODO: If it exists, print 'Great choice! 1 Ham & Swiss coming right up!'
 
-order = input('What sandwhich would you like to order?(ex. Hame & Swiss)')
+order = input('What sandwhich would you like to order?(ex. Ham & Swiss)')
 
 for sandwich in sandwiches:
     if order == sandwich:
