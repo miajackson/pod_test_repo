@@ -35,7 +35,7 @@ def create_account():
     account = {'username': username, 'password': password, 'balance' : 0}
     return(account)
 my_account = create_account()
-#testing function
+#testing my function
 print(my_account)
     
         
@@ -64,7 +64,7 @@ deposit(my_account, 2.2)
 deposit(my_account, 4.9)
 deposit(my_account, 12.42)
 
-#testing function
+#testing my function
 print(my_account)
 
 '''
