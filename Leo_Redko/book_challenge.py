@@ -108,3 +108,5 @@ Once you have completed this method, test it out on both my_library and nyt_best
 '''
 
 print('\nBONUS Part 6\n')
+my_library.display_titles()#aplphabetical order
+nyt_bestsellers.display_titles()#books appended from the nyt bestseller list

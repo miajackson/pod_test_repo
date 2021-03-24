@@ -21,3 +21,9 @@ class Booklist():
             
 
     def display_titles(self):
+        titles = []
+        for books in self.books:
+          titles.append(books['title'])
+        titles.sort()
+        print(titles)
+          
